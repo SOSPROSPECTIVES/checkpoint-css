@@ -1,0 +1,216 @@
+body {
+    background-color: rgba(240, 238, 243, 0.886);
+}
+main {
+    background-color: rgba(240, 238, 243, 0.886);
+}
+header {
+    align-items: center;
+    background-color: rgb(236, 221, 249);
+}
+header p {
+    font-size:30px;
+    color: rgb(99, 24, 219);
+    }
+header nav ul li {
+    display: inline;
+    font-size:20px;
+    color:hsl(144, 91%, 59%)
+}
+header p, header nav {
+    display: inline-block;
+}
+nav {
+    margin-left:500px;
+}
+header p {
+    padding-right: 50px;
+}
+header li {
+    padding: 20px;
+}
+h3 {
+    text-align:center;
+    font-size: 28px;
+    background-color: rgb(255, 149, 0);
+}
+
+main button {
+border:1px solid red;
+}
+.Apropos div{
+    display: inline-block;
+    border:1px solid red;
+    width: 48%;
+    background-color: rgb(255, 208, 0);
+
+}
+.Apropos h3 {
+
+}
+.contenu-image{
+    text-align: right;
+
+}
+
+.contenu-texte{
+   vertical-align: top;
+   padding-top: 50px;
+   font-size: 20px;
+}
+
+.contenu-texte button{
+    padding: 15px;
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+/*.contenu-texte .Apropos1 p, button, .Apropos2 img {
+    display: inline-block;
+}
+.contenu-texte .Apropos1 {
+    margin-right: 80%;
+}
+.contenu-image {
+    margin-left:50px;
+}
+.Apropos1 {
+    padding-right:50%
+    margin-right:50%
+}*/
+/*.Travail {
+  display: flex;
+  border-style: double blue;
+}*/
+.travail1, .travail2, .travail3 {
+    display: inline-block;
+    width: 25%;
+    border-radius:15px;
+    margin-left: 3%;
+    margin-right: 5%;
+    height: 400px;
+    vertical-align: middle;
+    background-color: goldenrod
+}
+
+.image-travail {
+    height: 50%;
+}
+.image-travail img {
+    width:100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.descript-image {
+    margin-top: 35px;
+    border-radius: 15px
+}
+.descript-image p {
+    font-size: 16px;
+    padding: 20px
+}
+
+figcaption {
+    text-align:center;
+    font-weight: bold;
+}
+.MyCV img {
+    width: 80%;
+    max-width: 300px;
+    border: 2px solid #333;
+    border:1px solid red;
+}
+.MyCV {
+    text-align: center;
+    background-color: #f5e236;
+}
+.download-link {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #eee6e6;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 15%;
+    text-align: center;
+    margin: 0 auto;
+}
+.MyCV p {
+    text-align:center;
+    background-color: #3cf536;
+}
+.Contactpro {
+    display: block;
+    text-align:center;
+    border:1px solid red;
+    margin-left: 0;
+    background-color: hsl(144, 91%, 59%);
+}
+.contact {
+    text-align:center;
+    background-color: #d8f536;
+}
+.contact1 {
+    margin-right: 0;
+    border:1px solid red;
+}
+.contact2 p {
+    border:1px solid red;
+    margin-right: 0;
+    margin-bottom: 50px;
+}
+.contact1, .contact2 {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.form {
+    width: 100%;
+    border:1px solid red;
+    padding:0;
+    margin-top:5px;
+    padding-bottom: 50px;
+    background-color: #f536a9;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-right:45%
+}
+
+  
+input[type="text"], input[type="email"], textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #0d11f0;
+    border-radius: 4px;
+}
+textarea {
+    height: 100px;
+}
+button {
+    display: inline-block;
+    padding-right: 24%;
+    padding-left: 24%;
+    height: 30px;
+}
+.basdepage {
+   text-align: center;
+   padding: 5px;
+}
+.basdepage a {
+    margin-right: 25px;
+}
+footer {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 15px;
+    background-color: #97e80c;
+}
+footer p {
+    text-align: center;   
+}
